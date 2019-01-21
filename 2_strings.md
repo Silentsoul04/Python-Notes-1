@@ -4,7 +4,7 @@
 
    example:-
 
-![1547615240373](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547615240373.png)
+![1547615240373](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547615240373.png)
 
 ​	or my_message.
 
@@ -14,15 +14,15 @@
 
    or we can use backslash as well
 
-   example:-![1547615562252](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547615562252.png)
+   example:-![1547615562252](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547615562252.png)
 
 3. for using multiple lines,  add three quotes to the beginning and ending
 
-   example:-![1547615749998](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547615749998.png)
+   example:-![1547615749998](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547615749998.png)
 
 4. for finding length of a string, use **len** function.
 
-![1547615912398](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547615912398.png)
+![1547615912398](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547615912398.png)
 
 5. print(message[10]) then it prints **d** in hello world example 
 
@@ -78,6 +78,6 @@
 
      
 
-![1547617987403](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547617987403.png)
+![1547617987403](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547617987403.png)
 
 - print(help(str))-to get information regarding string class. Help function is used only for classes. we can also use print(help(str.lower)) to get information regarding lower function.

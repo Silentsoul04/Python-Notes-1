@@ -6,7 +6,7 @@
 
 4. eg:-python string that happens to be valid JSON
 
-   ![1548002833495](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548002833495.png) 
+   ![1548002833495](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548002833495.png) 
 
    It is a multi line string. 
 
@@ -14,7 +14,7 @@
 
    json.loads("string name") method is used.
 
-   ![1548002970399](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548002970399.png) 
+   ![1548002970399](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548002970399.png) 
 
    if we print(type(data)) it returns 
 
@@ -22,37 +22,37 @@
 
 6. conversion table used while loading json into an object:-
 
-   ![1548003080547](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003080547.png) 
+   ![1548003080547](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003080547.png) 
 
-   ![1548003158474](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003158474.png) 
+   ![1548003158474](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003158474.png) 
 
-7. ![1548003196079](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003196079.png) 
+7. ![1548003196079](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003196079.png) 
 
-   ![1548003224525](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003224525.png) 
+   ![1548003224525](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003224525.png) 
 
 8. Dumping python object into a JSON string:-
 
    json.dumps() method is used.
 
-   ![1548003322746](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003322746.png) 
+   ![1548003322746](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003322746.png) 
 
    here we are deleting phone and then performing dumping.
 
    If we want to make it readable we pass indent in arguments as shown below:-
 
-   ![1548003405757](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003405757.png) 
+   ![1548003405757](Chttps://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003405757.png) 
 
    intended:-for each level it is intended 2 times
 
-   ![1548003461106](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003461106.png) 
+   ![1548003461106](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003461106.png) 
 
-   ![1548003491903](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003491903.png) 
+   ![1548003491903](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003491903.png) 
 
-   ![1548003443367](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003443367.png) 
+   ![1548003443367](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003443367.png) 
 
 9. Soring keys when dumped into json:-
 
-   ![1548003547364](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003547364.png) 
+   ![1548003547364](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003547364.png) 
 
 10. Loading json files into python objects:-
 
@@ -62,13 +62,13 @@
 
     JSON file with states key and its a list of objects:-
 
-    ![1548003889650](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003889650.png) 
+    ![1548003889650](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003889650.png) 
 
     code and o/p:-
 
-    ![1548003942720](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003942720.png) 
+    ![1548003942720](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003942720.png) 
 
-    eg:-![1548003975045](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548003975045.png) 
+    eg:-![1548003975045](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548003975045.png) 
 
 11. Writing python objects into json files:-
 
@@ -78,11 +78,11 @@
 
     code:-
 
-    ![1548004187653](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548004187653.png) 
+    ![1548004187653](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548004187653.png) 
 
     then new_states file is created and its content is shown below:-
 
-    ![1548004228680](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548004228680.png) 
+    ![1548004228680](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548004228680.png) 
 
     we can use indent=2 as json.dump(data,f,indent=2) and run for more readability.
 
@@ -94,28 +94,28 @@
 
     python file:-
 
-    ![1548004602162](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548004602162.png) response.read() just gets the response from the website.
+    ![1548004602162](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548004602162.png) response.read() just gets the response from the website.
 
-    ![1548004656411](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548004656411.png)
+    ![1548004656411](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548004656411.png)
 
     finding out if the count is 188:-
 
-    ![1548004757161](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548004757161.png) 
+    ![1548004757161](Chttps://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548004757161.png) 
 
     Looping through all the 188 resources:-
 
-    ![1548004792010](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548004792010.png) 
+    ![1548004792010](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548004792010.png) 
 
     Printing names and prices:-
 
-    ![1548004866366](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548004866366.png) 
+    ![1548004866366](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548004866366.png) 
 
     converting above names and prices into a dictionary:-
 
-    ![1548004945729](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548004945729.png) 
+    ![1548004945729](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548004945729.png) 
 
     50 US dollars will be 42.325 euros
 
-    Converting 50 US dollars into indian rupees:-![1548005008070](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548005008070.png) 
+    Converting 50 US dollars into indian rupees:-![1548005008070](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548005008070.png) 
 
     

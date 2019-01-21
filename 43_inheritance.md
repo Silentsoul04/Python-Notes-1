@@ -2,27 +2,27 @@
 
 2. code:-
 
-   ![1547994091655](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547994091655.png) 
+   ![1547994091655](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547994091655.png) 
 
    o/p:-
 
-   ![1547994114213](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547994114213.png) 
+   ![1547994114213](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547994114213.png) 
 
    method resolution order:-First checks in the specified class that is instantiated. If it doesn't find then it goes to parent class. This chain is called method resolution order.
 
 3. help function helps in visualizing method resolution order as shown below:-
 
-   ![1547994338979](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547994338979.png) 
+   ![1547994338979](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547994338979.png) 
 
    o/p:-
 
-   ![1547994353832](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547994353832.png) 
+   ![1547994353832](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547994353832.png) 
 
-4.  ![1547994469061](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547994469061.png) 
+4.  ![1547994469061](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547994469061.png) 
 
-   ![1547994532305](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547994532305.png) 
+   ![1547994532305](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547994532305.png) 
 
-   ![1547994547146](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547994547146.png) 
+   ![1547994547146](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547994547146.png) 
 
    see the difference between above two pictures.
 
@@ -30,40 +30,40 @@
 
    Instead of super, we can directly use parent class as shown below
 
-   ![1547994786528](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547994786528.png) 
+   ![1547994786528](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547994786528.png) 
 
    For single inheritance, super() is better and for multiple inheritance usage of parent class is better
 
    entire example of developer class is:-
 
-   ![1547994889255](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547994889255.png) 
+   ![1547994889255](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547994889255.png) 
 
 6. Manager subclass:-
 
-   ![1547995023537](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547995023537.png) 
+   ![1547995023537](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547995023537.png) 
 
    for initialization use lists or dictionaries only as in the above case(self.employees=[])
 
    execution code and o/p:-
 
-   ![1547995182055](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547995182055.png) 
+   ![1547995182055](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547995182055.png) 
 
 7. isinstance()-tells us if an object is an instance of a class
 
-   ![1547995313693](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547995313693.png)
+   ![1547995313693](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547995313693.png)
 
-   ![1547995300702](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547995300702.png)
+   ![1547995300702](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547995300702.png)
 
-   ![1547995262099](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547995262099.png) 
+   ![1547995262099](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547995262099.png) 
 
 8. issubclass()-tells us whether it is a subclass or not.
 
-   ![1547995443615](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547995443615.png) 
+   ![1547995443615](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547995443615.png) 
 
    **Real world example:-** Exception module of python whisky library
 
-   ![1547995490470](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547995490470.png) 
+   ![1547995490470](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547995490470.png) 
 
-   ![1547995503771](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547995503771.png) 
+   ![1547995503771](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547995503771.png) 
 
    

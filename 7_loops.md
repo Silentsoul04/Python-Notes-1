@@ -2,27 +2,27 @@ Break keyword will completely break out of a loop and the continue keyword move 
 
 eg:-
 
-![1547639316762](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639316762.png)
+![1547639316762](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547639316762.png)
 
-![1547639350596](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639350596.png)
+![1547639350596](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547639350596.png)
 
 **for loop:-**
 
 1. Loop within a loop:-**
 
-eg:- ![1547639419538](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639419538.png)
+eg:- ![1547639419538](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547639419538.png)
 
 1. **Range:-**
 
    eg:- 
 
-   ![1547639499156](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639499156.png)
+   ![1547639499156](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547639499156.png)
 
-   ![1547639549209](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639549209.png)
+   ![1547639549209](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547639549209.png)
 
    **While loop:-**
 
-1. eg:- ![1547639659980](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639659980.png)
+1. eg:- ![1547639659980](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547639659980.png)
 
    
 

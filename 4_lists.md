@@ -128,15 +128,15 @@
 
     To access the index and the value
 
-    ![1547632971624](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547632971624.png)
+    ![1547632971624](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547632971624.png)
 
-    ![1547633015666](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547633015666.png)
+    ![1547633015666](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547633015666.png)
 
 15. **List into String and vice-versa**:-
 
     *list into string:-*
 
-    ![1547634081668](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634081668.png)
+    ![1547634081668](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547634081668.png)
 
     
 
@@ -144,7 +144,7 @@
 
     by splitting the string that we created using **split()** function
 
-    for eg:-![1547634187132](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634187132.png)
+    for eg:-![1547634187132](Chttps://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547634187132.png)
 
     
 
@@ -152,9 +152,9 @@
 
 *Tuples are immutable(can't be modified ) and lists are mutable.*
 
-eg:- ![1547634447180](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634447180.png)
+eg:- ![1547634447180](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547634447180.png)
 
-![1547634500030](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634500030.png)
+![1547634500030](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547634500030.png)
 
 - we can't remove or append in tuples as they are immutable and they even have less methods compared to lists.
 
@@ -164,25 +164,25 @@ eg:- ![1547634447180](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-image
 
   - it also removes duplicates
 
-    eg:- ![1547634739455](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634739455.png)
+    eg:- ![1547634739455](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547634739455.png)
 
   - **Membership test:-** used to test whether a value is part of a set. Sets do this a lot more efficiently than lists and tuples. 
 
-    eg:- ![1547634864710](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634864710.png)
+    eg:- ![1547634864710](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547634864710.png)
 
   - They also determine what values they either share or don't share with other sets. 
 
     - **Intersection:-**
 
-      eg:- ![1547635176896](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547635176896.png)
+      eg:- ![1547635176896](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547635176896.png)
 
     - **Difference:-**
 
-      eg:- ![1547635216138](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547635216138.png)
+      eg:- ![1547635216138](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547635216138.png)
 
     - **Union:-**
 
-      eg:- ![1547635252940](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547635252940.png)
+      eg:- ![1547635252940](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547635252940.png)
 
       ​           
 
@@ -190,4 +190,4 @@ eg:- ![1547634447180](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-image
 
 **CREATING EMPTY LISTS, TUPLES AND SETS:-**
 
-![1547635334670](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547635334670.png)
+![1547635334670](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547635334670.png)

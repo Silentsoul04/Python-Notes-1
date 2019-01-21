@@ -8,7 +8,7 @@
 
 2. **basic operations:-**
 
-![1547619317832](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547619317832.png)
+![1547619317832](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547619317832.png)
 
 ​	for normal division it gives 1.5 as answer.
 
@@ -40,7 +40,7 @@
 
    They return boolean values
 
-   ![1547629469786](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547629469786.png)
+   ![1547629469786](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547629469786.png)
 
 9. num_1='100'
 

@@ -4,29 +4,29 @@
 
    to find days in current month:-
 
-   ![1548005556977](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548005556977.png) 
+   ![1548005556977](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548005556977.png) 
 
    first value is first of the month that is monday in this case and second value is the total days in that month.
 
-   ![1548005717040](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548005717040.png) 
+   ![1548005717040](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548005717040.png) 
 
    days till next month:-
 
-   ![1548005685284](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548005685284.png) 
+   ![1548005685284](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548005685284.png) 
 
    to find the start date of next month:-
 
-   ![1548005778956](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548005778956.png) 
+   ![1548005778956](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548005778956.png) 
 
    code for this entire example:-
 
-   ![1548006089210](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548006089210.png) 
+   ![1548006089210](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548006089210.png) 
 
-   ![1548006104456](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548006104456.png) 
+   ![1548006104456](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548006104456.png) 
 
    o/p:-
 
-   ![1548006151561](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548006151561.png) 
+   ![1548006151561](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548006151561.png) 
 
    Balance becomes 0 in december.
 
@@ -34,8 +34,8 @@
 
    weights are in pounds
 
-   ![1548006412990](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548006412990.png)  
+   ![1548006412990](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548006412990.png)  
 
 4. **Script to tell how many <u>days</u> will it take to reach a certain number of subscribers:- **
 
-   ![1548006631836](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548006631836.png) 
+   ![1548006631836](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548006631836.png) 

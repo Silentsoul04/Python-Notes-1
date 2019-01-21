@@ -18,15 +18,15 @@
 
 9. If you want to provide somebody a list of packages that they need for their project by using **freeze** command, we can send them as shown below.
 
-   ![1547703257091](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547703257091.png)
+   ![1547703257091](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547703257091.png)
 
 10. Now if they require to install those packages using pip, then **pip install -r <file name that contains list of packages to be installed**.
 
-    ![1547703370986](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547703370986.png)
+    ![1547703370986](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547703370986.png)
 
     Then you can type pip list to check whether the packages are installed.
 
 11. To update all of the packages, follow below picture
 
-    ![1547703658478](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547703658478.png)
+    ![1547703658478](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547703658478.png)
 

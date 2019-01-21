@@ -6,29 +6,29 @@
 
    eg:-here message variable is free variable.![1547980913051](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547980913051.png) 
 
-   ![1547980931986](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547980931986.png) 
+   ![1547980931986](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547980931986.png) 
 
    here it prints message variable several times, that is called as closure. It remembers message variable even after the outer function is finished executing.
 
-   ![1547981168797](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547981168797.png) 
+   ![1547981168797](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547981168797.png) 
 
    
 
 2. **Decorators:-** it is a function that takes functions as arguments, perform some **functionality** and returns a function.
 
-   ![1547981412382](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547981412382.png) 
+   ![1547981412382](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547981412382.png) 
 
    or
 
-   ![1547981571530](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547981571530.png) 
+   ![1547981571530](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547981571530.png) 
 
-3. ![1547981800834](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547981800834.png) 
+3. ![1547981800834](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547981800834.png) 
 
    when passing two functions to single decorator function, use positional and keyword arguments as shown above.
 
 4. **classes as decorators:-**
 
-   ![1547981921202](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547981921202.png) 
+   ![1547981921202](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547981921202.png) 
 
 5. **Practical examples of decorators:-**
 
@@ -36,13 +36,13 @@
 
    code:-
 
-   ![1547982530448](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547982530448.png) 
+   ![1547982530448](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547982530448.png) 
 
-   ![1547982566257](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547982566257.png) 
+   ![1547982566257](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547982566257.png) 
 
    once it is executed a log file is created and it has 
 
-   ![1547982388871](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547982388871.png) 
+   ![1547982388871](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547982388871.png) 
 
    
 
@@ -50,17 +50,17 @@
 
    eg:- 
 
-   ![1547982597068](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547982597068.png) 
+   ![1547982597068](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547982597068.png) 
 
-   ![1547982629013](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547982629013.png) 
+   ![1547982629013](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547982629013.png) 
 
 7. another example:-using decorators for single function
 
-   ![1547982716661](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547982716661.png) 
+   ![1547982716661](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547982716661.png) 
 
    if the order is switched then it will run as we need it.
 
-   ![1547982757966](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547982757966.png) 
+   ![1547982757966](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547982757966.png) 
 
    hence it didn't print the info in log file but created a wrapper file and the info is present in that file but not in log file as in above case before switching decorators.
 

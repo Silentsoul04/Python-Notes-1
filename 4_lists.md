@@ -1,171 +1,193 @@
-**Lists**
+*Lists and tuples help us to work with sequential data and sets are unordered collection of values with **NO** duplicates.*
 
-* Ordered sequence of elements.
-* Mutable
-* Homogenous or Heterogenous
-* Empty List declaration :
+**LISTS:-**
 
-```python3
-empty_list = []		# or
-empty_list = list()
-```
+1. creation:-
 
-* Declaration 
+    courses=['History','Math','Physics',CompSci]
 
-```python3
-> courses = ['math','physics','chemistry','biology']
+   print(courses)
 
-> print(courses)		# ['math','physics','chemistry','biology']
+   it prints ['History','Math','Physics',CompSci]
 
-> print(courses[1])		# physics; indexing a list's elements
+2. Length:-
 
-> print(len(courses))		# 4; length of a list
-```
+   print(len(courses))
 
-* Adding elements into a list ;
+   it returns 4
 
-```python3
-courses = ['math','physics','chemistry','biology']
+3. print(courses[0]) returns History
 
-# append(element) : adds element at the end
+4. negative index start from the last of list
 
-courses.append('arts')
-print(courses)			# ['math','physics','chemistry','biology','arts']
+   i.e., print(courses[-1]) prints CompSci
 
-# insert(position,element): add element at the desired postion
+   *Negative indexes are useful in printing final element in list*
 
-courses.insert(0,'english')
-print(courses)	# ['english','math','physics','chemistry','biology','arts']
+5. You get an index error if u try to access an index that doesn't exist 
 
-# extend(list_name) : adds elements of one list to another
+   eg:-print(courses[4]) returns index out of range
 
-courses_extra=['sports','compsci']
-courses.extend(courses_extra)
-print(courses)
-#['english','math','physics','chemistry','biology','arts','sports','compsci']
-```
+6. **Slicing:-**print(courses[0:2]) prints ['History','Math']
 
-* Removing elements from a list :
+7. **Adding:-** 
 
-```python3
-courses=['math','physics','chemistry','biology']
+   - using append:-
 
-# remove(element_name) : removes the desired element
+     courses.append('Art') adds art into courses
 
-courses.remove('math')
-print(courses)			# ['physics','chemistry','biology']
+   - using insert:-
 
-# pop() : removes the last element and returns it
+     courses.insert(0,'Art')
 
-popped = courses.pop()
-print(popped)				# biology
-print(courses)				# ['physics','chemistry']
-```
+     it returns ['Art','History','Math','Physics',CompSci']
 
-* Misc Operations on lists :
+   - using extend:-
 
-```python3
-nums=[1,3,2,5,4]
+     courses=['History','Math','Physics',CompSci]
 
-# reverse() : reverses the list order
+     courses_2=['Art','Education']
 
-nums.reverse()
-print(nums)			# [4,5,2,3,1]
+     courses.insert(0,courses_2) and printing it gives [['Art','Education'],History','Math','Physics',CompSci']
 
-# sort() : sorts the list in ascending order  (Timsort)
+     so we use extend method i.e.,
 
-nums.sort()
-print(nums)			# [1,2,3,4,5]
+     courses.extend(courses_2) and print them. U will get ['History','Math','Physics',CompSci','Art','Education']
 
-nums.sort(reverse=True)		# descending order
-print(nums)			# [5,4,3,2,1]
+8. **Remove:-**
 
-# sorted(list_name) : returns a sorted copy, doesn't alter the original list
+   courses.remove('Math')
 
-nums=[1,3,2,5,4]
-sorted_nums=sorted(nums)
-print(sorted_nums)			# [1,2,3,4,5]
-print(nums)					# [1,3,2,5,4]
+   or
 
-# min(list_name) : returns minimum element of the list
+   courses.pop()-pops last element from list 
 
-print(min(nums))		# 1
+   eg:-compsci in this example of history math physics and compsci
 
-# max(list_name) : returns maximum element of the list
+   we can also print the popped element by assigning it to some variable 
 
-print(max(nums))		# 5
+   eg: popped=courses.pop()
 
-# sum(list_name) : returns sum of all the list elements
+   print(popped) and it returns CompSci
 
-print(sum(nums))		# 15
+9. **Reverse:-**
 
-# list_name.index('element_value') : returns index of an element
+   courses.reverse() and print courses
 
-print(nums.index(5))		# 3
+10. **Sort:-**
 
-# join() and split()
+    courses.sort() and it will print in alphabetic order starting from CompSci and in ascending order for numbers
 
-courses=['math','physics','chemistry','biology']
-course_str= ', '.join(courses)
-print(course_str)		# math, physics, chemistry, biology
+    For descending, use courses.sort(reverse=True)
 
-courses_new=course_str.split(', ')
-print(courses_new)		# ['math', 'physics', 'chemistry', 'biology']
-```
+    If we want sorted list without altering the original list, use 
 
+    sorted_courses=sorted(courses)
 
+    print(sorted_courses) prints sorted version 
 
-**Tuples :**
+    print(courses) will print courses as it is starting from history.
 
-* Ordered, Immutable (cannot add, remove, modify), Homo and Hetero
-* Empty Tuple declaration :
+11. **min,max,sum:-**
 
-```python3
-empty_tuple=()			# or
-empty_tuple =tuple()	
-```
+    nums=[1,2,3,4,5]
 
-* Declaration :
+    print(min(nums)) returns 1
 
-```python3
-courses=('math','physics','chemistry','biology')
+12. **Finding index:-**
 
-print(courses)		#('math', 'physics', 'chemistry', 'biology')
-print(courses[0])	# math
+    print(courses.index('CompSci')) returns 3
 
-courses[0]='arts'		# error : immutable
-```
+    and if the value is not present then it returns **ValueError**
 
-**Sets :**
+13. **in function:-**
 
-* Unordered, No duplicates, Set objects are mutable, homo or hetero
-* Empty set declaration :
+    - It is used to find whether a value is present in list or not and it returns boolean values
 
-```python3
-empty_set=set()		# {} isn't right, it's a dictionary
-```
+      eg:-courses=['History','Math','Physics',CompSci']
 
-* Membership check :
+      print('Art' in courses) returns false
 
-```python3
-courses={'math','physics','chemistry'}
+    - It can also be used in loops
 
-print('math' in courses)		# True
-```
+      eg:- for item in courses:
 
-* Set operations :
+      ​		print(courses)
 
-```python3
-courses={'math','physics','chemistry'}
-arts={'math','design','history'}
+      output:-
 
-> print(courses.intersection(arts))	  # {'math'}
+      History
 
-> print(courses.union(arts))	# {'chemistry', 'design', 'history', 'math', 								 # 'physics'}
+      Math
 
-> print(courses.difference(arts))		# {'chemistry', 'physics'}
-```
+      Physics
 
+      CompSci
 
+14. **Enumerate function:-**
 
+    To access the index and the value
 
+    ![1547632971624](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547632971624.png)
+
+    ![1547633015666](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547633015666.png)
+
+15. **List into String and vice-versa**:-
+
+    *list into string:-*
+
+    ![1547634081668](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634081668.png)
+
+    
+
+    *string into list:-*
+
+    by splitting the string that we created using **split()** function
+
+    for eg:-![1547634187132](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634187132.png)
+
+    
+
+    **TUPLES:-**
+
+*Tuples are immutable(can't be modified ) and lists are mutable.*
+
+eg:- ![1547634447180](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634447180.png)
+
+![1547634500030](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634500030.png)
+
+- we can't remove or append in tuples as they are immutable and they even have less methods compared to lists.
+
+  **SETS:-**
+
+  - output changes everytime we run the set. 
+
+  - it also removes duplicates
+
+    eg:- ![1547634739455](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634739455.png)
+
+  - **Membership test:-** used to test whether a value is part of a set. Sets do this a lot more efficiently than lists and tuples. 
+
+    eg:- ![1547634864710](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547634864710.png)
+
+  - They also determine what values they either share or don't share with other sets. 
+
+    - **Intersection:-**
+
+      eg:- ![1547635176896](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547635176896.png)
+
+    - **Difference:-**
+
+      eg:- ![1547635216138](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547635216138.png)
+
+    - **Union:-**
+
+      eg:- ![1547635252940](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547635252940.png)
+
+      ​           
+
+      ​      
+
+**CREATING EMPTY LISTS, TUPLES AND SETS:-**
+
+![1547635334670](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547635334670.png)

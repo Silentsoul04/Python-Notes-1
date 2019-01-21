@@ -1,22 +1,31 @@
-**Loops :**
+Break keyword will completely break out of a loop and the continue keyword move on to the next iteration of the loop.
 
-* <b>For</b> Loop :
+eg:-
 
-```python3
-nums=[1,2,3,4,5]
+![1547639316762](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639316762.png)
 
-for i in nums :				# loops through the entire list
-	body
-	
-for i in range(1,11,2):			# loops through 1-10 with a step of 2
-	body
-```
+![1547639350596](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639350596.png)
 
-* <b>While</b> Loop :
+**for loop:-**
 
-```python3
-while condition :
-	body
-```
+1. Loop within a loop:-**
 
-* Jump statements : break, continue.
+eg:- ![1547639419538](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639419538.png)
+
+1. **Range:-**
+
+   eg:- 
+
+   ![1547639499156](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639499156.png)
+
+   ![1547639549209](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639549209.png)
+
+   **While loop:-**
+
+1. eg:- ![1547639659980](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547639659980.png)
+
+   
+
+2. Break and continue can also be used similarly as we did in for for loop.
+
+3. use ctrl+c in case of infinte loops(while True:) to stop.

@@ -1,21 +1,17 @@
-**Slicing :**
+**slicing lists:-**
 
-```python3
-msg="Hello"
+![1547714445817](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547714445817.png)
 
-> print(msg[0:2])      # He
+![1547714467511](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547714467511.png)
 
-> print(msg[:4])		# Hell
+![1547714496203](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547714496203.png)
 
-> print(msg[0:])		# Hello
+entire list in reverse:-
 
+![1547714537568](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547714537568.png)
 
-courses = ['math','physics','chemistry','biology']
+**Slicing Strings:-**
 
-> print(courses[0:2])		# math physics
+![1547714591850](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547714591850.png)
 
-> print(courses[-1])		# biology; negative sign indicates indexing from 							 # backwards
-
-
-```
-
+![1547714676501](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547714676501.png)

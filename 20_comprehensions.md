@@ -1,43 +1,67 @@
-**Comprehension :**
+**List Comprehension:-** is a easier and more readable way to create a list.
 
-* List comprehension : easier way to write a list.
+eg:- 1. comment section of for loop also prints the same output. [n for n in nums] is the **comprehension**.
 
-```python3
-nums =[1,2,3,4,5,6,7,8,9]
+![1547714995008](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547714995008.png)
 
-# i want 'n' for each 'n' in nums if 'n' is even.
+2. ​        ![1547715126765](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547715126765.png)
 
-traditional way :
-________________
+3. **map** runs everything in the list through a certain function and lambda is an anonymous function. 
 
-my_list=[]
+   ![1547715360887](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547715360887.png)
 
-for n in nums:
-	if n%2==0:
-		my_list.append(n)
-		
-comprehension :
-______________
+   map are tough to read and write. Hence **comprehensions are better**.
 
-my_list=[n for n in nums if n%2==0]
-```
+4. ![1547715618585](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547715618585.png)
 
-* Dictionary comprehension:
+5. same by using filter is 
 
-```python3
-names=['bruce','clark','peter']
-heros=['batman','superman','spiderman']
+   ![1547715685366](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547715685366.png)
 
-# i want a dict{'name':'hero'} for each name in zip(names,heros)
+6. ![1547739620781](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547739620781.png)
 
-traditional way :
-________________
-my_dict={}
+   o/p:- ![1547739653643](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547739653643.png) 
 
-for name,hero in zip(names,heros):
-	my_dict[name]=hero
+   **Comprehending Dictionaries:-**
 
-comprehension :
-______________
-my_dict={name:hero for name,hero in zip(names,heros)}
-```
+   eg :- 
+
+   1. zip function:-![1547739848324](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547739848324.png)
+
+      o/p:-![1547739877844](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547739877844.png)
+
+   2. ![1547739985505](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547739985505.png)
+
+      with comprehension:-
+
+      ![1547740070670](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547740070670.png) 
+
+   3. If we don't want peter then 
+
+      ![1547740129580](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547740129580.png) 
+
+      **Comprehending sets:-**
+
+      1. ![1547740217564](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547740217564.png) 
+
+         o/p:- ![1547740238762](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547740238762.png) 
+
+         with comprehension:-
+
+         ![1547740319968](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547740319968.png) 
+
+         prints same output.
+
+         
+
+         **Comprehending GENERATOR EXPRESSIONS:-**
+
+         - similar to list comprehension.
+
+         - ![1547740548618](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547740548618.png) 
+
+           output also includes 1 and 4
+
+         - with comprehension also prints the same output and the code is given below:-
+
+           ![1547740612608](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547740612608.png)

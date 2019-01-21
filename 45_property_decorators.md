@@ -1,63 +1,25 @@
-**Property Decorators (getters, setters, deleters) :**
+1. **Property Decorator:-** This allows us to give our class attributes getter, setter and deleter functionality like may have seen in some other languages.
 
-```python3
-class Emp:
-	def __init__(self,fname,lname,email):
-		self.fname=fname
-		self.lname=lname
-		self.email=fname+'.'+lname+'@company.com'
-	def fullname(self):
-    	return fname+lname
+2. eg:-
 
-emp1=Emp('aditya','kuppa')
+   ![1548001286718](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548001286718.png) 
 
-print(emp1.first,emp1.email,emp1.fullname())	#aditya aditya.kuppa... adityakuppa
+   when we first name as shown below:-
 
-"""
-this shouldn't happen, since email isn't fetched every now and then it isn't updated to the new one, to resolve this we use getters.
-"""
-emp1.fname='adi'
+   ![1548001302532](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548001302532.png)
 
-print(emp1.first,emp1.email,emp1.fullname())	#adi aditya.kuppa.... adikuppa
+    Now if you want to change mail as well, then in python we use property decorators which are similar to that of getters and setters in java.
 
-"""
-getter :
-its a method, that can be used as a property
+3. Property decorator allows us to define a method that we can access it like an attribute
 
-setter:
-used to set attributes from the property methods
+   eg:-**Getter:-**
 
-deleter:
-deletes the property and updates the related attributes.
+   ![1548002012569](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548002012569.png) 
 
-class Emp:
-	def __init__(self,fname,lname,email):
-		self.fname=fname
-		self.lname=lname
-		self.mail=fname+'.'+lname+'@company.com'
-	@property												# getter				
-	def email(self):
-		return "{}.{}@company.com".format(self.fname,self.lname	)
-	@property
-	def fullname(self):
-    	return fname+' '+lname
-    @fullname.setter							# setter
-    def fullname(self,name):							# same name as property method
-    	first,last=name.split(' ')
-    	self.fname=first
-    	self.lname=last
-    @fullname.deleter
-    	def fullname(self):
-    		print('deleted')
-    		self.fname=None
-    		self.lname=None
-emp1.fname='adi'
+4. **Setter:-**
 
-print(emp1.first,emp1.email,emp1.fullname)  #adi adi.kuppa... adi kuppa
+   ![1548002254408](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548002254408.png) 
 
-emp1.fullname='kuppa aditya'
-print(emp1.first,emp1.email,emp1.fullname)	#kuppa kuppa.aditya... kuppa aditya
+5. **Deleter:-**
 
-del emp1.fullname
-"""
-```
+   ![1548002403680](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548002403680.png)

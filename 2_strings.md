@@ -1,66 +1,83 @@
-**Strings**
+**working with variables:-**
 
-* series ( or an array ) of characters.
+1. use descriptive variables.
 
-```python3
-# declaration
+   example:-
 
-> message='Hello World'    # single line strings
+![1547615240373](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547615240373.png)
 
-> message='Bobby's World'  	# error1
-  message= "Bobby's World" 	# solution1
+​	or my_message.
 
-> message=""" hello
-  world """                    # multiline string
+2. we can use double quotes if we need single quotes in the string to be printed and vice-versa
 
-> length=len(message)  		# length of string
+   example:-message="hello bobby's world"
 
-> first_character= message[0]			# indexing string characters
-```
+   or we can use backslash as well
 
-* Methods :
+   example:-![1547615562252](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547615562252.png)
 
-```python3
-msg="Hello"
+3. for using multiple lines,  add three quotes to the beginning and ending
 
-> print(msg.lower())		# hello
+   example:-![1547615749998](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547615749998.png)
 
-> print(msg.upper())		# HELLO
+4. for finding length of a string, use **len** function.
 
-> print(msg.count('l'))		# 3, counts the no. of occurrences of the substr
-  print(msg.count('Hell'))	# 1
+![1547615912398](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547615912398.png)
 
-> print(msg.find('ello'))	# 1, gives start index of substr else -1
-  print(msg.find('hello'))	# -1
-  
-> new_msg=msg.replace('e','a')
-  print(new_msg)				# Hallo
-  print(msg)					# Hello
-```
+5. print(message[10]) then it prints **d** in hello world example 
 
-* Concatenation :
+6. **slicing:-**
 
-```python3
-greetings="Hello"
-name="World"
+   message[0:5] prints hello <!--it doesnt include 5th index character-->
 
-> msg=greetings+' '+name
-  print(msg)				# Hello World
-"""
-Useful for shorter strings, gets cluttered and messy for longer concats
-"""
+   message[6:] prints world
 
-> msg='{},{}. Welcome!'.format(greetings,name)
-  print(msg)			# Hello,World. Welcome!
-"""
-Easier and more readable during longer concats.
-{} is used as a placeholder.
-"""
+7. Method is a function that belongs to a particular object
 
-> msg=f'{greetings},{name}. Welcome!'
-  print(msg)			# Hello,World. Welcome!
-"""
-These are called f-strings.
-Applicable only for python versions starting from 3.6
-"""
-```
+8. **functions on strings:-**
+
+   - message.lower()-prints the message in lower case
+
+   - message.upper()-prints the message in upper case
+
+   - message.count()-count certain no. of characters
+
+     eg:-count('l') in hello world gives 3 as output
+
+   - message.find('world') gives 6 as output. if we some other string other than present string then it returns -1 eg:- find('universe') it returns -1 as we have only hello world.
+
+   - message=message.replace('world','universe') to replace a word. it prints hello <!--assigning is necessary-->
+
+   - **concatenation:-**
+
+   1. message=greeting+name returns hellomichael where greeting='hello' and name='michael'. 
+
+   2. message=greeting + ', ' + name + '. Welcome!' It prints hello, michael. Welcome!
+
+   3. **string formatting:-** 
+
+      we can also use place orders i.e., {}
+
+      example:- message='{}, {}. Welcome!'.format(greeting,name)
+
+   - **f strings:-**
+
+     used to simplify string formatting.
+
+     eg:-message=f'{greeting}, {name}. Welcome!'
+
+     it prints same as above
+
+     **advantage:-**we can directly use string functions inside brackets.
+
+     eg:-{name.upper()} in above example.
+
+     
+
+     **dir variable**:-
+
+     
+
+![1547617987403](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547617987403.png)
+
+- print(help(str))-to get information regarding string class. Help function is used only for classes. we can also use print(help(str.lower)) to get information regarding lower function.

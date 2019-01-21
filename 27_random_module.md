@@ -1,17 +1,41 @@
-**random module :**
+**Shouldn't be used for security or cryptography and security module should be used for that**
 
-```python3
-import random
+1. random() function gives [0,1)
 
-val=random.random() 		# random no. between 0 and 1
-val=random.uniform(1,10)		# random no. in the specified range
-val= random.randint(1,6)		# random no. from 1-6 inclusive of both
+   ![1547967038816](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967038816.png)
 
-greetings=['hi','hello','hola','heylo','hey']
-val=random.choice(greetings)		# randomly chooses an element from the list
-results=random.choices(greetings,k=10)		# returns a list of 10 random values (might 											# repeat)
+2. ![1547967056813](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967056813.png)
 
-vals=list(range(1,20))
-random.shuffle(vals)			# shuffles the vals list 
-cand=random.sample(vals,k=5)		# returns a sample list of 5 random values(unique)
-```
+3. ![1547967086564](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967086564.png)
+
+4. ![1547967132663](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967132663.png)
+
+   ![1547967193746](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967193746.png)
+
+   ![1547967260745](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967260745.png)
+
+   weights[18,18,2] gives 18 out of 38 chance for red , same for black and 2 for green 
+
+5. randomly shuffling:-
+
+   ![1547967348567](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967348567.png)
+
+   ![1547967377214](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967377214.png)
+
+   we use sample method to grab unique cards from our sequence rather than choice method which selects one card multiple times.
+
+   ![1547967485910](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967485910.png)
+
+6. **overall example:-**
+
+   generating 100 fake names, numbers etc.
+
+   code:-
+
+   ![1547967664301](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967664301.png) 
+
+   ![1547967678443](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967678443.png) 
+
+   o/p:-
+
+   ![1547967700891](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547967700891.png)

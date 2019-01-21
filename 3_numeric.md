@@ -1,79 +1,61 @@
-**Numeric Data :**
+1. **type:-**
 
-* Checking the data type of a variable:
+   print(type(num))
 
-```python3
-var=5
-print(type(var))		# <class,'int'>
-```
+   returns <class 'int'>
 
-* Arithmetic Operations :
+   and for num=3.4 it returns float.
 
-```python3
-op1=3
-op2=4
+2. **basic operations:-**
 
-> print(op1+op2)		# 7, addition
+![1547619317832](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547619317832.png)
 
-> print(op1-op2)		# -1, subtraction
+​	for normal division it gives 1.5 as answer.
 
-> print(op1*op2)		# 12, multiplication
+3. **power function:-**
 
-> print(op1/op2)		# 1.5 (for >= py v3.0), 1 (py v2.0), division
+   print(3**2) returns 9
 
-> print(op1//op2)		# 1, floor division
+4. Order of operations does work with python
 
-> print(op1**op2)		# 81, power
+   eg:-print(3*(2+1)) returns 9
 
-> print(op1%op2)		# 4, modulo
+5. **Incrementing:-**
 
->print(abs(-4))			# 4, absolute value
+   num=1
 
-> print(round(3.74,1))		# 3.70, round upto first decimal
-```
+   num+=10
 
-* Compound Operators :  +=, -=, *=, /=  etc.
-* Comparison Operators :  == (comparison), != (not equals), >= (ge), <= (le), > (greater than), < (less than) ; returns boolean values.
-* Logical Operators : and, or, not, is.
-* Note : The == operator compares the values in the objects whereas the 'is' keyword compares the id's of the objects.
+   print(num)
 
-**Common Typecastings :**
+   it returns 11
 
-* String to Integer :
+6. print(abs(-10)) returns 10
 
-```python3
-n1='100'
-n2='200'
+7. print(round(3.75)) returns 4
 
-print(n1+n2)		# 100200
+   print(round(3.75,1)) returns 3.8
 
-n1=int(n1)
-n2=int(n2)
-print(n1+n2)		# 300
+8. **Comparisions:-**
 
-# Note : int() is used to convert any data type to int 
-```
+   They return boolean values
 
-* Integer to String :
+   ![1547629469786](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547629469786.png)
 
-```python3
-n1=20
+9. num_1='100'
 
-n1_string = str(n1)
-```
+   num_2='200'
 
-* Character to ASCII equivalent :
+   print(num_1 +num_2) returns 100200
 
-```python3
-var='A'
+10. So we use **casting**
 
-> print(ord(var))		# 65
-```
+    num_1='100'
 
-* ASCII to Character equivalent :
+    num_2='200'
 
-```
-var = 65
+    num_1=int(num_1)
 
-> print(chr(var))		# A
-```
+    num_2=int(num_2)
+
+    print(num_1 +num_2) returns 300

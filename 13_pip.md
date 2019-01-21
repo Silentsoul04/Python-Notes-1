@@ -6,7 +6,7 @@
 
 4. Finding a package is performed by **pip search <package name> ** and then install
 
-   eg:- ![1547702724121](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547702724121.png)
+   eg:- ![1547702724121](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547702724121.png)
 
 5. **pip list** gives us all the packages installed with their versions.
 

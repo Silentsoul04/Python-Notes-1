@@ -2,11 +2,11 @@
 
 2. eg:-
 
-   ![1548001286718](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548001286718.png) 
+   ![1548001286718](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548001286718.png) 
 
    when we first name as shown below:-
 
-   ![1548001302532](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548001302532.png)
+   ![1548001302532](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548001302532.png)
 
     Now if you want to change mail as well, then in python we use property decorators which are similar to that of getters and setters in java.
 
@@ -14,12 +14,12 @@
 
    eg:-**Getter:-**
 
-   ![1548002012569](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548002012569.png) 
+   ![1548002012569](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548002012569.png) 
 
 4. **Setter:-**
 
-   ![1548002254408](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548002254408.png) 
+   ![1548002254408](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548002254408.png) 
 
 5. **Deleter:-**
 
-   ![1548002403680](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1548002403680.png)
+   ![1548002403680](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548002403680.png)

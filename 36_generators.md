@@ -1,11 +1,61 @@
-# Generator - How to use them and benefits
+Generators are used for better performance as it boosts. No memory is wasted. It is same before and after.
 
-- Generators are simple way of creating iterators.
-- Overheads that occur in creating iterators are handled by generators in python.
 
-## Creating a generator
-- It can be done by defining a normal function with a yield statement instead of a return statement.
-- A return statement terminates a function but yield function saves all the states and later continues from there.
-- After the yield is executed the function is paused and the control is transferred to the caller.
-- Local variables are remembered between calls.
-- When the function terminated 'StopIteration' is raised.
+
+>>> def square(alist):
+			 num=[]
+			 for n in alist:
+				 num.append(n*n)
+			 return num
+
+
+>>> blist=[1,2,3,4,5]
+
+>>> my=square(blist)
+
+>>> print(my)
+
+[1, 4, 9, 16, 25]
+>>> 
+
+>>> def square(alist):
+			 num=[]
+			 for n in alist:
+				 yield(n*n)
+
+
+>>> blist=[1,2,3,4,5]
+
+>>> my=square(blist)
+
+>>> print(my)
+
+<generator object square at 0x0333DD70>
+>>> next(my)
+
+1
+>>> next(my)
+
+4
+>>> my=(n*n for n in nums)
+
+Traceback (most recent call last):
+  File "<pyshell#52>", line 1, in <module>
+    my=(n*n for n in nums)
+NameError: name 'nums' is not defined
+
+>>> my=(n*n for n in blist)   #one way of declaring the generator
+>>> def people(num):
+			 result=[]
+			 for i in range(num):
+				 people={'id':i,
+			 'name':random.choice(names),'major':random.choice(majors)}
+				 result.append(people)
+			 return result
+
+
+>>> def people_generator(num):
+			 for i in range(num):
+				 people={'id':i,
+			 'name':random.choice(names),'major':random.choice(majors)}
+			yield people

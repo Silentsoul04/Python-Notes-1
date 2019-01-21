@@ -1,29 +1,34 @@
-# CSV Modules
-
-- Simple files used to store tabular data
-- Every line is a record
-
-- To open and read
-```
 import csv
-with open('names.csv','r' as csv file:
+
+with open('file.csv','r') as csv_file:
 	csv_reader = csv.reader(csv_file)
+	with open('newfile.csv','w') as new_file:
+		csv_writer=csv.writer(new_file,delimiter="-")
+	#next(csv_reader)
 	for line in csv_reader:
-		print(line[1])
-```
-- Here, names is a csv file that has first name, email and last name separated by a comma. The above program will print the first index or in this case the first name of all the records.
+		csv_writer.writerow(line)
 
-- To write
-```
+if needed delimiter can be "\t"
+if delimiter is changed from comma to any other thing then it should be passed as delimiter argument.
+
+csv.reader(new_file, delimiter="-")
+
+csv.DictReader(new_file) - where keys are fields and values are field values
+
+line['email']
+
 import csv
-with open('names.csv','r' as csv file:
-	csv_reader = csv.reader(csv_file)
-	
-	with open('new_names.csv','w') as new_file:
-		csv_writer = csv.writer(new_file, delimiter = '-')
+
+with open('file.csv','r') as csv_file:
+	csv_reader = csv.DictReader(csv_file)
+	with open('newfile.csv','w') as new_file:
+		fieldnames=['f_name','last_name','email'] #first row.
+		csv_writer=csv.DictWriter(new_file,fieldnames=fieldnames,delimiter="-")
 		
-		for line in csv_reader:
-			csv_writer.writerow(line)
+```python
+#next(csv_reader)
+csv_writer.writeheader()-#writes the fields name..
+for line in csv_reader:
+	del line['email']
+	csv_writer.writerow(line)
 ```
-- Here a new file is created where the comma delimiter in the old file is replaced by a '-' in the new file.
-- In case any of the data in any record contains the same delimiter then they are enclosed in quotes.

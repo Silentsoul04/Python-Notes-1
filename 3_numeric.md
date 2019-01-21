@@ -1,21 +1,17 @@
-# 3 Integers and floats
+Integers and Floats
 
-## Operations
-- Add +
-- Subtract -
-- Multiply 
-- Divide /
-- Floor divide //
-- Modulus %
-- Exponent **
+>>> 3+2
+5
+>>> -1%2
+1
+>>> 2**-1
+0.5
+>>> 4//5
+0
+>>> 4/5
+0.8
+>>>round(23.55)
+24
 
-## Casting
-- var2 = type(var1)
+casting- converts the one data type to another datatype.
 
-## Comparison
-- Equal ==
-- Not equal !=
-- greater than >
-- less than <
-- Greater than or equal to >=
-- Less than or equal to <=

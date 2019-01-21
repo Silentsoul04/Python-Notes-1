@@ -1,40 +1,53 @@
-# Import Modules and Standard Libraries
 
-- from sys.path
-```
-import module_name
-```
+Enumerate function:
 
-- from elsewhere
-``` 
-sys.path.append('location')
-```
+>>> list1=["b","p","r"]
+>>> 
+>>> for i in enumerate(list1):
+	print(i)
 
-- Renaming
- ```
- import module_name as alias
- ```
+	
+(0, 'b')
+(1, 'p')
+(2, 'r')
+>>> for i,value in enumerate(list1):
+	print(i,value)
 
-- importing function from a module
-```
-from module_name import func_name
-```
+	
+0 b
+1 p
+2 r
+>>> for i,value in enumerate(list1,100):
+	print(i,value)
 
-- importing variable from a module
-``` 
-from module_name import func_name, var_name
-```
+	
+100 b
+101 p
+102 r
 
-## Examples
-- math
-> math.radians(val)
-> math.sin(val)
 
-- datetime
-> datetime.date.today()
+file_name.py
 
-- calender
-> calender.isleap(2020)
+import file_name
 
-- OS
-> os.getcwd() 
+variable=file_name.function_name()
+variable=file_name.variable_name()
+
+import file_name as fn
+
+variable=fn.function_name()
+variable=fn.variable_name()
+
+from file_name import function_name,variable_name
+
+variable=function_name()
+variable=variable_name()
+
+import random,math,datetime
+
+random.choice()
+
+if the files are in another directories then we are supposed to add the paths using sys.path.append()
+
+instead we Can change the environment variable!! computer->system->advanced system settings->environment variable-> Give PYTHONPATH, And the path of the folder that resides.
+

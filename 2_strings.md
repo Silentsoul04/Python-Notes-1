@@ -1,21 +1,30 @@
-# 2 Strings
+>>> m1='Hi Prvn\'s frnd'
+>>> print(m1)
+Hi Prvn's frnd
 
-- Textual data- Strings
-- Enclosed in single or double quotes
-- len() returns the length of the string
-- To access a range of characters
-> name_of_string[starting_index:end_index]
-> when the index positions are left emppty then it is taken as the very beginning and end.
+Backslash character is used as escape character for '.
+Double quotes can also be used.
+For multiline strings triple quotes are used.
 
-- Functions on string
-> upper()
-> lower()
-> count(substring)
-> find(substring)
-> replace(prev_substring, new_substring)
+Methods and functions are basically the same thing.
+Method is a function type specific to the object.
 
-- Formatted strings
-> message = '{}, {}'.fromat(message1,message2)
+varaible_name.lower()-lowers the character.
+variable_name.upper()
+variable_name.count()-counts the string
+variable_name.find()-returns the index
+variable_name.replace(word_to_replace,word_to_be_replaced)- returns the replaced string but will never change the original string
 
-- F strings
-> message= f'{var1},{var2}'
+'+' is used as concatenation operator
+
+>>> greeting="hello"
+>>> name="Praveen"
+>>> greeting+name
+'helloPraveen'
+
+NOTE: It doesn't add any space.
+
+>>> '{}. {}'.format(greeting,name)
+'hello. Praveen'
+>>> f'{greeting}. {name}'
+'hello. Praveen'

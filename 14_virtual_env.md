@@ -1,12 +1,8 @@
-# Virtual environment
+virtual environment is used to support the various versions of the frameworks we use. It separates the various dependencies.
+ 
 
-- Different projects, different dependencies and requirments and hence different environments
-
-- to get into an environment
-> source name_of_env/bin/activate
-
--  to get out of it
-> deactivate
-
-- to delete
-> rm -rf name_of_env/
+1. Install the Virtual environment
+2. Activate
+3. list the packages
+4. Install the necessary packages using pip commands
+5. Deactivate

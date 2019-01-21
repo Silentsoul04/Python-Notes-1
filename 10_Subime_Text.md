@@ -1,6 +1,7 @@
-# Setting up python development environment in sublime text
+Setting up a Python Development environment in Sublime
 
-- Download, install
-- Type code, build the code
-- Package control
-- install packages like colour schemes and themes
+1. Download Sublime for windows (64bit)
+2. View console
+3. Install Package Control
+4. Open command palette
+5. Type in Enable: Package Control

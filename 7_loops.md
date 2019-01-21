@@ -1,12 +1,11 @@
-# Loops and Iterations
-- syntax:		
-> for var in list:
+Loops and Iterations:
 
-- break:		
->breaks out of the loop
+For and while
 
-- continue:	
->skips to the next iteration
+for i in range():
 
-- for
-- while
+for i in 'abc':
+
+'break' statement will exit the innermost loop
+
+'continue' will skip the following statements and moves to the next iteration

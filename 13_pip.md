@@ -1,12 +1,9 @@
-# Package Management System
+pip commands
 
-- pip help "command"
-- pip search "package name"
-- pip list 
-- > lists all the packages
-- pip list -o
-- > to check if all packages are up to date
-- pip install -U
-- > to upgrade
-- pip freeze > requirements.txt
-- > to send all the packages details for installation
+pip install numpy
+pip list
+pip search Pympler
+
+cat req.txt
+pip install -r req.txt
+pip list --outdated

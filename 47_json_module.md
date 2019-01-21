@@ -1,22 +1,40 @@
-# JSON
+JavaScript object notation
 
-- Very common data format for storing information.
-- Fetching data from nline API
-- Used for coniguration of files and different kinds of data storage on local machine.
-- Stands for Java Script Object Notation.
+JSON files are kind of dictionaries.
+Load a json string into python object:
 
-```
-data = json.loads(people_string)
-```
+data=json.loads(string)
 
-- Object to dict
-- array to list
-- string to str
-- null to none
-```
-with open('states.json') as f:
-	data = json.load(f)
-	
-for state n data['states']:
-	print(state['name'])
-```
+for person in data['people']:
+print(person)
+
+Dump a python object to json string:
+
+new_string= json.dumps(data, indent=2)
+
+
+
+
+
+import json
+
+with open() as f:
+ data=json.load(f)
+
+for state in data['states']:
+print(state)
+
+with open('new_json.json','w') as f:
+json.dump(data,f,indent=2)
+
+
+
+**import json**
+**from urllib.request import urlopen**
+
+**with urlopen("url") as response:**
+**source= response.read()**
+**data=json.loads(source)**
+
+**print(json.dumps(data,indent=2))**
+

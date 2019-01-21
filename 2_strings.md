@@ -4,7 +4,7 @@
 
    example:-
 
-![1547615240373](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547615240373.png)
+![1547615240373](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547615240373.png)
 
 ​	or my_message.
 

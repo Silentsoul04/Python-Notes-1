@@ -14,7 +14,7 @@ built-in:-names that are pre assigned in python
 
 1. eg 1:- local and global
 
-   ![1547712562423](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547712562423.png)
+   ![1547712562423](https:\\github.com\adityakuppa26\Python-Notes\blob\lalith_notes\images\1547712562423.png)
 
    eg 2:-
 

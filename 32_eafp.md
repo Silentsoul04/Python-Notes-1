@@ -11,15 +11,15 @@ Two aspects of being pythonic:-
 
    eg:-1. Not a ducktyping example
 
-   ![1547974842084](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547974842084.png) 
+   ![1547974842084](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547974842084.png) 
 
    o/p:-
 
-   ![1547974892019](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547974892019.png)
+   ![1547974892019](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547974892019.png)
 
    2. Example for ducktyping:-
 
-      ![1547974935234](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547974935234.png)
+      ![1547974935234](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547974935234.png)
 
    so it is dangerous because we may pass just any object that will potentially throw an error . So we place some checks to make sure that those quack and fly method exist. So this is where EAFP concept come into place.
 
@@ -27,17 +27,17 @@ Two aspects of being pythonic:-
 
    1. **Non-pythonic way:-** it is called as look before you leap.
 
-      ![1547975272526](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547975272526.png) 
+      ![1547975272526](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547975272526.png) 
 
       
 
    2. pythonic way:- This is called EAFP
 
-      ![1547975330188](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547975330188.png) 
+      ![1547975330188](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547975330188.png) 
 
       another example:-
 
-      ![1547975476778](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547975476778.png)
+      ![1547975476778](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547975476778.png)
 
 
 
@@ -45,25 +45,25 @@ Two aspects of being pythonic:-
 
    1. Non-pythonic way:-
 
-      ![1547975632311](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547975632311.png) 
+      ![1547975632311](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547975632311.png) 
 
-      ![1547975688567](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547975688567.png)
+      ![1547975688567](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547975688567.png)
 
    2. Pythonic way:-
 
-      ![1547975766261](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547975766261.png) 
+      ![1547975766261](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547975766261.png) 
 
-      ![1547975804598](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547975804598.png) 
+      ![1547975804598](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547975804598.png) 
 
 4. Example with lists:-
 
    1. Non-pythonic way:-
 
-      ![1547975906094](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547975906094.png)
+      ![1547975906094](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547975906094.png)
 
    2. Pythonic way:-
 
-      ![1547975949018](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547975949018.png)
+      ![1547975949018](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547975949018.png)
 
 **Adv of EAFP**:-1. It is faster in situations where you don;t have so many exceptions.
 
@@ -73,4 +73,4 @@ Two aspects of being pythonic:-
 
    eg:-
 
-   ![1547976845299](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547976845299.png)
+   ![1547976845299](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547976845299.png)

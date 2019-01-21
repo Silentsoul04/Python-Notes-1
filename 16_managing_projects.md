@@ -2,6 +2,6 @@
 
 2. Conda function and environmental variable code:-
 
-   ![1547708260154](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547708260154.png)
+   ![1547708260154](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547708260154.png)
 
 3. If we remove comment line i.e.,# from last line then we can automatically activate and deactivate from multiple projects<!--check video-->.

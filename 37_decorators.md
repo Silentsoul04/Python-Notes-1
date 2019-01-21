@@ -4,7 +4,7 @@
 
    Closures:- allow us to take advantage of first-class functions and return an inner function that remembers and has access to variables local to the scope in which they were created.
 
-   eg:-here message variable is free variable.![1547980913051](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547980913051.png) 
+   eg:-here message variable is free variable.![1547980913051](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547980913051.png) 
 
    ![1547980931986](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547980931986.png) 
 
@@ -64,7 +64,7 @@
 
    hence it didn't print the info in log file but created a wrapper file and the info is present in that file but not in log file as in above case before switching decorators.
 
-   ![1547982854474](C:\Users\lchitrag\AppData\Roaming\Typora\typora-user-images\1547982854474.png) 
+   ![1547982854474](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547982854474.png) 
 
 8. watch video from 24 to 30 for another example.
 

@@ -72,7 +72,7 @@
 
 9. To convert naive date time to timezone aware:-
 
-   ![;1547965686351](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547965686351.png) 
+   ![1547965686351](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547965686351.png) 
 
 10. **Ways to display datetimes**:-
 

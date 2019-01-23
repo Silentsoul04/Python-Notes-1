@@ -1,16 +1,5 @@
 
-
 # Classes and Instances (preetha)
-
-## Class and Instance
-- Logical grouping of data and functions in a way that is easy to reuse and easy to build upon.
-```
-class Employee:
-	pass
-	
-emp1 = Employee()
-emp2 = Employee()
-```
 
 ## Instance Variables
 - These are variables that have unique values for each instance.
@@ -47,4 +36,33 @@ eg:- self.first=first is similar to manually assigning like emp_1.first='name'. 
 calling methods using class name:-
 
 ![1547985629809](https://github.com/adityakuppa26/Python-Notes/tree/lalith_notes/images/1547985629809.png) 
+
+(prvnrj)
+Data and functions together bind known as class. 
+
+
+
+class Employee():
+
+```python
+#Below thing is like a constructor and methods automatically takes in the self argument 
+def __init__(self,f,l,p):
+    self.fname=f
+    self.lname=l
+    self.salary=p
+def fullname(self):
+    return '{} {}'.format(self.fname,self.lname)
+```
+
+e1=Employee("Praveen","Raja",26000)
+
+print(e1.salary)
+print(e1.fullname())
+print(Employee.fullname(e1))
+
+
+Output:
+26000
+Praveen Raja
+Praveen Raja
 

@@ -37,3 +37,12 @@ Line
 
 for comments in program use **#** before the statement*
 
+(prvnrj)
+Install and setup for Windows..
+
+1. open up  command prompt 
+
+2. type in Python - - version and most likely you'll see that this is not yet installed and get this Python is not recognized err 
+3. so to install this we can just open up an internet browser and go to the Python web site which is Python 3.7.2
+4. from here we can click on downloads
+5. Install Python 3.7.2

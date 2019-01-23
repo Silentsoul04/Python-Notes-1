@@ -1,5 +1,3 @@
-
-
 # CSV Modules(preetha)
 
 - Simple files used to store tabular data
@@ -7,22 +5,7 @@
 
 - To open and read
 ```
-import csv
-with open('names.csv','r' as csv file:
-	csv_reader = csv.reader(csv_file)
-	for line in csv_reader:
-		print(line[1])
-```
-- Here, names is a csv file that has first name, email and last name separated by a comma. The above program will print the first index or in this case the first name of all the records.
 
-- To write
-```
-import csv
-with open('names.csv','r' as csv file:
-	csv_reader = csv.reader(csv_file)
-	
-	with open('new_names.csv','w') as new_file:
-		csv_writer = csv.writer(new_file, delimiter = '-')
 		
 		for line in csv_reader:
 			csv_writer.writerow(line)
@@ -121,3 +104,36 @@ Comma is  a delimiter(which separate data), delimiter can slo be a tab space etc
 
      **Dictionary Reader and Writer are more obvious ways than just reader and writer**
 
+(prvnrj)
+```python
+import csv
+
+with open('file.csv','r') as csv_file:
+  csv_reader = csv.reader(csv_file)
+  with open('newfile.csv','w') as new_file:
+    csv_writer=csv.writer(new_file,delimiter="-")
+  #next(csv_reader)
+  for line in csv_reader:
+    csv_writer.writerow(line)
+
+if needed delimiter can be "\t"
+if delimiter is changed from comma to any other thing then it should be passed as delimiter argument.
+
+csv.reader(new_file, delimiter="-")
+
+csv.DictReader(new_file) - where keys are fields and values are field values
+
+line['email']
+
+import csv
+
+with open('file.csv','r') as csv_file:
+  csv_reader = csv.DictReader(csv_file)
+  with open('newfile.csv','w') as new_file:
+    fieldnames=['f_name','last_name','email'] #first row.
+    csv_writer=csv.DictWriter(new_file,fieldnames=fieldnames,delimiter="-")
+#next(csv_reader)
+csv_writer.writeheader()-#writes the fields name..
+for line in csv_reader:
+	del line['email']
+	csv_writer.writerow(line)

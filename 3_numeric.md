@@ -1,19 +1,5 @@
-<
 
 # 3 Integers and floats(preetha)
-
-## Operations
-- Add +
-- Subtract -
-- Multiply 
-- Divide /
-- Floor divide //
-- Modulus %
-- Exponent **
-
-## Casting
-- var2 = type(var1)
-
 ## Comparison
 - Equal ==
 - Not equal !=
@@ -164,4 +150,23 @@ var = 65
     num_2=int(num_2)
 
     print(num_1 +num_2) returns 300
+
+(prvnrj)
+Integers and Floats
+>>>>>>> origin/prvnrj_notes
+
+>>> 3+2
+5
+>>> -1%2
+1
+>>> 2**-1
+0.5
+>>> 4//5
+0
+>>> 4/5
+0.8
+>>>round(23.55)
+24
+
+casting- converts the one data type to another datatype.
 

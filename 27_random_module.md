@@ -1,5 +1,3 @@
-
-
 # Random module(preetha)
 
 - value = random.random() returns a radom value between 0 and 1
@@ -88,3 +86,11 @@ cand=random.sample(vals,k=5)		# returns a sample list of 5 random values(unique)
 
    ![1547967700891](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547967700891.png)
 
+(prvnrj)
+
+import random
+
+random.choices(, weights=[18,18,2],k=10)
+random.randint()
+random.random()
+random.sample()- gives only unique values

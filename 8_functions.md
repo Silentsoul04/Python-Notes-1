@@ -6,7 +6,6 @@
 - Tuples and dictionaries as arguments
 
 
-
 **Functions :** (aditya)
 
 * piece of reusable code
@@ -80,3 +79,32 @@ def func(name,age=21)			# function with default args
    - **docstrings** help document what a function or a class is supposed to do. for example """return true for leap years........""" in below picture.
 
      ![1547650527616](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547650527616.png) 
+
+(prvnrj)
+Functions
+'pass' keyword will help to skip the functions 
+It will not throw any errors if we call the function.
+>>>>>>> origin/prvnrj_notes
+
+args and kwargs keywords!!
+args takes the arguments whereas kwargs the key-value pairs..
+
+<<<<<<< HEAD
+def hello(*args,**kwargs):
+	print(args)
+	print(kwargs)
+
+>>> hello('hi')
+('hi',)
+{}
+>>> hello(1,2,3,4)
+(1, 2, 3, 4)
+{}
+>>> hello(1,key="value")
+(1,)
+{'key': 'value'}
+>>> hello(1,key="value",2)
+SyntaxError: positional argument follows keyword argument
+>>> hello(1,2,key="value")
+(1, 2)
+{'key': 'value'}

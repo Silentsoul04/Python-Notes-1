@@ -1,25 +1,5 @@
-
 # Property Decorators(preetha)
 
-```
-class Emp:
-	def __init__(self,fname,lname,email):
-		self.first = first
-		self.last = last
-		self.email = first+'.' + last+ '@oracle.com'
-		
-	def fullname(self):
-		return first + last
-```
-
-- When there is a change in the name of a person then the email has to be updated. Hence for this,
-```
-@property
-def email(self):
-	return '{}.{}@oracle.com'.format(self.first,self.last)
-```
-
-​    	
 **Property Decorators (getters, setters, deleters) :**(aditya)
 
 ```python3
@@ -110,3 +90,58 @@ del emp1.fullname
 
    ![1548002403680](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1548002403680.png)
 
+
+(prvnrj)
+Property Decorators: Getters, setters and Deleters:
+
+
+
+class Employee():
+    #Below thing is like a constructor and self is the default argument 
+    def __init__(self,f,l,p):
+        self.fname=f
+        self.lname=l
+        self.salary=p
+        
+
+```python
+@property
+def email(self):
+    return '{}.{}@oracle.com'.format(self.fname,self.lname)
+
+@property
+def fullname(self):
+    return '{} {}'.format(self.fname,self.lname)
+
+@fullname.setter
+def fullname(self,name):
+    first,last=name.split(" ")
+    self.fname=first
+    self.lname=last
+
+@fullname.deleter
+def fullname(self):
+    print("Deleting the name!")
+    self.fname=None
+    self.lname=None
+```
+
+emp=Employee('Praveen','Raja',26000)
+
+emp.fname="Prvn"
+
+emp.fullname="Mahesh Babu"
+
+print(emp.fname) #It will change 
+print(emp.email)  #It will not change
+print(emp.fullname)
+
+del emp.fullname
+
+
+Output:
+
+Mahesh
+Mahesh.Babu@oracle.com
+Mahesh Babu
+Deleting the name!

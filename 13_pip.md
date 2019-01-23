@@ -1,5 +1,3 @@
-
-
 # Package Management System   (preetha)
 
 - pip help "command"
@@ -74,4 +72,15 @@ pip install -r requirements.txt : installs all the packages in the req. file
 
     ![1547703658478](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547703658478.png)
 
+
+(prvnrj)
+pip commands
+
+pip install numpy
+pip list
+pip search Pympler
+
+cat req.txt
+pip install -r req.txt
+pip list --outdated
 

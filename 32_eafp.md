@@ -1,32 +1,49 @@
 
 
 # Duck typing and EAFP (preetha)
+=======
+EASIER TO ASK FORGIVENESS THAN PERMISSION:
+>>>>>>> origin/prvnrj_notes
 
-## Duck Typing
+We donot care about the type of the object, whatever we asked to do now.. it has to do. (Pythonic).
 
-- If an object walks like a duck and quacks like a duck then it is considered as a duck.
-- Instead of checking if an item is a duck it is sufficient if it behaves like a duck even if it is not exactly a duck.
+The main advantage of it is we can access the object only once rather than using multiple times. First we access it, if it works then it displays otherwise it displays the error.
 
-## Look before you leap
 
-- Checking for the condition for an exception before executing the statement.
-- The statement does not get executed if the condition fails.
-- example:
-```
-if 'name' n person and 'age' in person and 'job' in person:
-	print("I am {name}, {age} years old and my job is {job}.".format(**person))
+#Accessing files:
+
+import os
+
+my_file="C:/Users/bpraja/Desktop/git.txt"
+
+'''
+if os.access(my_file,os.R_OK):
+    with open(my_file) as f:
+        print(f.read())
 else:
-	print('missing some keys')
-```
+    print("File cannot be accessed")
+'''
 
-## Easier to ask for forgiveness than permission
-
-- First trying to execute the statemnt, if it fails then executing the exception part.
-- example:
-```
+'''
+#The pythonic way
 try:
-	print("I am {name}, {age} years old and my job is {job}.".format(**person))
+    f=open(my_file)
+
+except IOError as e:
+    print(e)
+else:
+    print(f.read())
+'''    
+
+#These are the most pythonic way of approach..
+
+Details={'name':'Praveen','age':21,'job':'employee'}
+a=[1,2,3,4]
+
+try:
+    print(f"I'm {Details['name']}, age is {Details['age']}, {Details['job']}")
 except KeyError as e:
+<<<<<<< HEAD
 	print('missing {} key'.format(e))
 
 **EAFP(easier to ask forgiveness than permission) :** (aditya)
@@ -124,4 +141,14 @@ Two aspects of being pythonic:-
    eg:-
 
    ![1547976845299](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547976845299.png)
+=======
+    print(e)
+Output:
 
+try :
+    print(a[5])
+except IndexError as e:
+    print(e)
+
+Output:
+Index out of range

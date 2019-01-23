@@ -1,13 +1,6 @@
-
 # Loops and Iterations(preetha)
 - syntax:		
 > for var in list:
-
-- break:		
->breaks out of the loop
-
-- continue:	
->skips to the next iteration
 
 - for
 - while
@@ -67,3 +60,14 @@ eg:- ![1547639419538](https://github.com/adityakuppa26/Python-Notes/blob/lalith_
 
 3. use ctrl+c in case of infinte loops(while True:) to stop.
 
+(prvnrj)
+For and while
+
+for i in range():
+
+
+for i in 'abc':
+
+'break' statement will exit the innermost loop
+
+'continue' will skip the following statements and moves to the next iteration

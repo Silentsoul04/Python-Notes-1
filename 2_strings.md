@@ -1,22 +1,7 @@
 
 # 2 Strings (Content by Preetha)
 
-- Textual data- Strings
-- Enclosed in single or double quotes
-- len() returns the length of the string
-- To access a range of characters
-> name_of_string[starting_index:end_index]
-> when the index positions are left emppty then it is taken as the very beginning and end.
 
-- Functions on string
-> upper()
-> lower()
-> count(substring)
-> find(substring)
-> replace(prev_substring, new_substring)
-
-- Formatted strings
-> message = '{}, {}'.fromat(message1,message2)
 
 - F strings
 > message= f'{var1},{var2}'
@@ -173,4 +158,37 @@ Applicable only for python versions starting from 3.6
 ![1547617987403](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547617987403.png)
 
 - print(help(str))-to get information regarding string class. Help function is used only for classes. we can also use print(help(str.lower)) to get information regarding lower function.
+
+(prvnrj)
+
+>>> m1='Hi Prvn\'s frnd'
+>>> print(m1)
+Hi Prvn's frnd
+
+Backslash character is used as escape character for '.
+Double quotes can also be used.
+For multiline strings triple quotes are used.
+
+Methods and functions are basically the same thing.
+Method is a function type specific to the object.
+
+varaible_name.lower()-lowers the character.
+variable_name.upper()
+variable_name.count()-counts the string
+variable_name.find()-returns the index
+variable_name.replace(word_to_replace,word_to_be_replaced)- returns the replaced string but will never change the original string
+
+'+' is used as concatenation operator
+
+>>> greeting="hello"
+>>> name="Praveen"
+>>> greeting+name
+'helloPraveen'
+
+NOTE: It doesn't add any space.
+
+>>> '{}. {}'.format(greeting,name)
+'hello. Praveen'
+>>> f'{greeting}. {name}'
+'hello. Praveen'
 

@@ -54,7 +54,7 @@ def func(name,age=21)			# function with default args
 
    1. ![1547649270199](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547649270199.png)
 
-2. *Default Arguments:-*
+4. *Default Arguments:-*
 
    ![1547649520434](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547649520434.png)
 
@@ -62,7 +62,7 @@ def func(name,age=21)			# function with default args
 
    ![1547649603666](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547649603666.png)
 
-3. *Positional or keyword arguments:-*
+5. *Positional or keyword arguments:-*
 
    **Positional arguments have to come before keyword arguments**
 
@@ -84,6 +84,7 @@ def func(name,age=21)			# function with default args
 Functions
 'pass' keyword will help to skip the functions 
 It will not throw any errors if we call the function.
+
 >>>>>>> origin/prvnrj_notes
 
 args and kwargs keywords!!

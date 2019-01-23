@@ -81,7 +81,7 @@
 
    
 
-=======
+(Prvnrj)
 
 >>> def square(alist):
 			 num=[]

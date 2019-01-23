@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 
 # Decorators(preetha)
 
@@ -102,7 +100,7 @@ def print_hi():
 
 8. watch video from 24 to 30 for another example.
 
-=======
+(prvnrj)
 #Decorators are used to add functionality to the original function.
 
 
@@ -185,5 +183,4 @@ def output_info(empno,age):
     print('Function executed with arguments {} {}'.format(empno,age))
 
 output_info(1081916,22)
->>>>>>> origin/prvnrj_notes
-
+s

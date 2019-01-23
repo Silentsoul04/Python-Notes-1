@@ -89,7 +89,7 @@ It will not throw any errors if we call the function.
 args and kwargs keywords!!
 args takes the arguments whereas kwargs the key-value pairs..
 
-<<<<<<< HEAD
+
 def hello(*args,**kwargs):
 	print(args)
 	print(kwargs)

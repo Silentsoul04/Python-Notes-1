@@ -1,4 +1,5 @@
 
+
 # Decorators with arguements(preetha)
 
 ```
@@ -16,4 +17,9 @@ def do_twice(func):
 * Whenever there's a need to pass arguments, to the decorator function, nest it into one more level and pass the arguments to that outer function, which could be used by the previous decorator function and the further nested ones.
 
 ![decorators_args](images/decorators_args.PNG)  
+
+(lalith)
+![1547983321767](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547983321767.png) 
+
+![1547983450703](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547983450703.png)
 

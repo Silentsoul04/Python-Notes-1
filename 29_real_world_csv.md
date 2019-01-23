@@ -1,3 +1,4 @@
+
 # Parsing Names from a csv to html
 
 ```
@@ -27,3 +28,10 @@ print(html_output)
 ```
 
 - This program parses the contributors' names from csv file to html.
+(lalith)
+**csv module is better than using split method.**
+
+- instead of using for loop, we can also use print(list(csv_data)) but it is not readable.
+
+  <!--Check video for the example-->
+

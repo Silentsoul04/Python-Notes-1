@@ -1,5 +1,18 @@
 
 # 3 Integers and floats(preetha)
+
+## Operations
+- Add +
+- Subtract -
+- Multiply 
+- Divide /
+- Floor divide //
+- Modulus %
+- Exponent **
+
+## Casting
+- var2 = type(var1)
+
 ## Comparison
 - Equal ==
 - Not equal !=

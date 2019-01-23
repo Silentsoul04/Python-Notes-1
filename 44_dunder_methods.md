@@ -1,6 +1,19 @@
 
 # Special Methods(preetha)
 
+- Dunder -Double underscores
+- Dunder init methods are automatically called when we create an instance.
+- 
+## Dunder repr() 
+
+- unambiguous representation of the object
+- used for debugging and logging
+
+## Dunder str()
+
+- Readable representation
+- Meant to be used as display to end user.
+
 **Special/Dunder Methods :** (aditya)
 
 * Used for special functionality for objects and for operator overloading.
@@ -99,6 +112,7 @@ class Employee:
    ![1547997357010](https://github.com/adityakuppa26/Python-Notes/blob/lalith_notes/images/1547997357010.png) 
 
    
+
 (prvnrj)
 Special (Magic/Dunder) Methods:
 

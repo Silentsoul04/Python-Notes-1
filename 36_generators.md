@@ -1,12 +1,8 @@
+# Generator - How to use them and benefits (Preetha)
 
+- Generators are simple way of creating iterators.
+- Overheads that occur in creating iterators are handled by generators in python.
 
-# Generator - How to use them and benefits (preetha)
-=======
-Generators are used for better performance as it boosts. No memory is wasted. It is same before and after.
->>>>>>> origin/prvnrj_notes
-
-
-<<<<<<< HEAD
 ## Creating a generator
 - It can be done by defining a normal function with a yield statement instead of a return statement.
 - A return statement terminates a function but yield function saves all the states and later continues from there.

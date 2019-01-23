@@ -1,11 +1,26 @@
-# CSV Modules(preetha)
+# CSV Modules(Preetha)
 
 - Simple files used to store tabular data
 - Every line is a record
 
 - To open and read
 ```
+import csv
+with open('names.csv','r' as csv file:
+	csv_reader = csv.reader(csv_file)
+	for line in csv_reader:
+		print(line[1])
+```
+- Here, names is a csv file that has first name, email and last name separated by a comma. The above program will print the first index or in this case the first name of all the records.
 
+- To write
+```
+import csv
+with open('names.csv','r' as csv file:
+	csv_reader = csv.reader(csv_file)
+	
+	with open('new_names.csv','w') as new_file:
+		csv_writer = csv.writer(new_file, delimiter = '-')
 		
 		for line in csv_reader:
 			csv_writer.writerow(line)
@@ -137,3 +152,5 @@ csv_writer.writeheader()-#writes the fields name..
 for line in csv_reader:
 	del line['email']
 	csv_writer.writerow(line)
+
+```

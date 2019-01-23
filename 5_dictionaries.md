@@ -1,5 +1,23 @@
 # Dictionaries(preetha)
 
+- Syntax: 
+>`dict_name={'key':value,....}`
+
+- To print:	
+> `print(dict_name['key'])`
+> `print(dict_name.get(key))`
+> `print(dict_name.get(key,'message'))`
+
+- To edit:		
+>`dict_name.update({key:value})`
+
+- To delete:	
+> `del.dict_name[key]`
+> `dict_name.pop(key)
+
+- no.of keys:	
+> `print(len(dict_name))`
+
 - keys:		
 > `print(dict_name.keys())`
 
@@ -8,7 +26,6 @@
 
 - keys and values:	
 > `print(dict_name.items())`
-
 **Dictionary :**(aditya)
 
 * Key-Value pairs
@@ -199,14 +216,14 @@ dict_items([(1, 'A'), (3, 'C'), (2, 'B')])
 >>> for key in d:
   print(key)
 
-  
+
 1
 3
 2
 >>> for key,values in d.items():
   print(key,value)
 
-  
+
 Traceback (most recent call last):
   File "<pyshell#116>", line 2, in <module>
     print(key,value)
@@ -214,14 +231,14 @@ NameError: name 'value' is not defined
 >>> for key,values in d.items():
   print(key,values)
 
-  
+
 1 A
 3 C
 2 B
 >>> for key in d:
   print(d[key])
 
-	
+
 A
 C
 B

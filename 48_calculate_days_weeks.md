@@ -1,4 +1,4 @@
-# Calculating number of days, weeks, or months to reach specific goals
+# Calculating number of days, weeks, or months to reach specific goals(preetha)
 
 ## Example 1:  A code to pay off a particular amount of balance with a set interest rate
 
@@ -50,3 +50,10 @@ while current_weight > goal_weight:
 
 print(f'Reaced goal in {(end_date-start_date).days //7 }weeks')
 ```
+**Calculating no. of days, weeks and months :**(aditya)
+
+* import datetime, calendar
+* calendar.monthrange(year,month) : returns a list of the starting day of the month and the no. of days in the month.
+* Expected date to reach the subscriber goal:
+
+![no_of_days](images/no_of_days.PNG)  

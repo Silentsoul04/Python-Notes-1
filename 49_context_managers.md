@@ -1,4 +1,4 @@
-# Efficiently Managing Resources
+# Efficiently Managing Resources(preetha)
 
 - 2 ways to open a file: with and without using a context manager.
 - Context managers allow us to specify what exactly we want to set up and tear down when working with file objects.
@@ -68,3 +68,14 @@ def change_dir(destination):
 	finally:
 		os.chdir(cwd)
 ```
+**Context Manager :**(aditya)
+
+* for the efficient management of resources.
+* say for a file, even if we dont explicitly close it, it handles the operation.
+* context manager with a class :
+
+![context_manager_class](images/context_manager_1.PNG)
+
+* context manager with function :
+
+![context_manager_function](images/context_manager_2.PNG) 
